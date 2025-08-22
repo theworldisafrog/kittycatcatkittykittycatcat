@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 18pt;
+	color: #800000; /* makes it red :) */
+	text-align: center; /* centers it :) */
+}
+	/*
+	this is a comment in css and java and js :3
+	*/
+	
+p{
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+}	
+p.shrt{
+	display: inline-block; /*shrinks to fit content lol*/
+	background-color: lightyellow;
+	width: 300px; /*sticky note wideness*/
+	padding: 5px 10px;
+	margin: 10px 0px;
+	text-align: center;
+}
+.row{
+	display: flex; /*allows horizontal layout*/
+	gap: 20px;	/*space between paragraphs if you'd like*/
+}
+	
+h1 {
+	display: inline-block;
+	font-size: 32pt;
+	text-align: center; /* headings are special :) */
+	color: red;
+	background-color: white; 
+	padding: 5px 10px;
+	margin: 20px auto;
+}
+h2 {
+	text-align: left;
+	background-color: #800000
+	color: red;
+}
+li{
+	text-align: left;
+}
+a {
+	font-family: monospace;
+}
